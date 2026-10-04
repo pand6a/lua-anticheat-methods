@@ -17,6 +17,7 @@ end)
 --2.
 -- its cool, works on alot of things like most UI libraries
 -- I gave claude arceus X init scripts for it to collect some of these Ids (im a lazy bum)
+-- RIP Old preloadasync detection
 local HACKERIDS = {
 	"14926240421", -- Arceus X Neo app logo
 	"14915932328", -- Arceus/SPDM logo
