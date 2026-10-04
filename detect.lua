@@ -2,7 +2,7 @@
 -- this one old but if you don't know its cool to know
 -- warning: this will flag in studio and will also flag if a script in your game uses EncodingService
 
--- detects  -- https://github.com/luau/UniversalSynSaveInstance
+-- detects  -- https://github.com/luau/UniversalSynSaveInstance can probably detect other things
 if game:FindService("EncodingService") ~= nil then
  -- ussi
 	return
