@@ -7,9 +7,11 @@ if game:FindService("EncodingService") ~= nil then
  -- ussi
 	return
 end
+
 game.ServiceAdded:Connect(function(serv)
 	if serv.Name == "EncodingService" then
   -- ussi
+ -- recommendation to crash or :ClearAllChildren
 	end
 end)
 -- Solution to 1: use cloneref() its big 2026
