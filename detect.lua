@@ -36,14 +36,9 @@ for _, id in ipairs(HACKERIDS) do
 		local ok, status = pcall(function()
 			return ContentProvider:GetAssetFetchStatus(contentId)
 		end)
-		-- print(id, tostring(ok), tostring(status))
-		if ok
-			and (
-				status == Enum.AssetFetchStatus.Success
-				or status == Enum.AssetFetchStatus.Loading
-			)
-		then
-			-- An asset you don't like was loaded by a HACKER panic
+
+		if ok and (status == Enum.AssetFetchStatus.Success or status == Enum.AssetFetchStatus.Loading) then
+			-- An asset you don't like was loaded by a HACKER
 		end
 	end
 end
